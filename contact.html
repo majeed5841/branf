@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Brand Pro Solution | Digital Marketing Agency</title>
+    <meta name="description" content="Get in touch with Brand Pro Solution. Book a discovery call, request a quote, or learn more about our digital marketing services.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon"><i class="fas fa-bolt"></i></span>
+                <span class="logo-text">Brand Pro<span class="highlight">Solution</span></span>
+            </a>
+            
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="services.html">Services <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="service-web-development.html">Website Development</a></li>
+                        <li><a href="service-graphic-design.html">Graphic Design</a></li>
+                        <li><a href="service-ui-ux.html">UI/UX Design</a></li>
+                        <li><a href="service-seo-content.html">SEO & Content</a></li>
+                        <li><a href="service-social-media.html">Social Media Marketing</a></li>
+                        <li><a href="service-google-business.html">Google Business Optimization</a></li>
+                    </ul>
+                </li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="case-studies.html">Case Studies</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+            
+            <div class="nav-cta">
+                <a href="contact.html" class="btn btn-primary">Get Started</a>
+                <button class="mobile-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="page-hero">
+        <div class="gradient-bg"></div>
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container hero-container">
+            <div class="hero-content fade-in-up">
+                <h1>Let's Build Something <span class="highlight">Amazing</span> Together</h1>
+                <p class="hero-subtitle">Ready to transform your digital presence? Get in touch with our team of experts and start your growth journey today.</p>
+                <div class="hero-cta">
+                    <a href="#contact-form" class="btn btn-primary btn-lg">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </a>
+                    <a href="tel:+13473529747" class="btn btn-outline btn-lg">
+                        <i class="fas fa-phone"></i> (347) 352-9747
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number"><i class="fas fa-clock"></i></span>
+                        <span class="stat-label">24hr Response</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number"><i class="fas fa-users"></i></span>
+                        <span class="stat-label">500+ Clients</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number"><i class="fas fa-star"></i></span>
+                        <span class="stat-label">5★ Rating</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image fade-in-up" data-delay="200">
+                <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=800&h=600&fit=crop" alt="Contact our team">
+                <div class="image-card floating-card">
+                    <div class="card-icon"><i class="fas fa-comments"></i></div>
+                    <div class="card-content">
+                        <h4>Live Chat</h4>
+                        <p>Available 9AM - 6PM CST</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact-form" class="contact-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Get In Touch</span>
+                <h2>Start Your <span class="highlight">Project</span> Today</h2>
+                <p>Fill out the form below and our team will get back to you within 24 hours.</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-form-card glass-card fade-in-left">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="john@example.com">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="(347) 352-9747">
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Company Name</label>
+                                <input type="text" id="company" name="company" placeholder="Your Company">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">Service Interested In *</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="web-development">Website Development</option>
+                                <option value="graphic-design">Graphic Design</option>
+                                <option value="ui-ux">UI/UX Design</option>
+                                <option value="seo-content">SEO & Content</option>
+                                <option value="social-media">Social Media Marketing</option>
+                                <option value="google-business">Google Business Optimization</option>
+                                <option value="multiple">Multiple Services</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="budget">Estimated Budget</label>
+                            <select id="budget" name="budget">
+                                <option value="">Select budget range</option>
+                                <option value="under-5k">Under $5,000</option>
+                                <option value="5k-10k">$5,000 - $10,000</option>
+                                <option value="10k-25k">$10,000 - $25,000</option>
+                                <option value="25k-50k">$25,000 - $50,000</option>
+                                <option value="50k-plus">$50,000+</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Project Details *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project, goals, and timeline..."></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter" checked>
+                            <label for="newsletter">Subscribe to our newsletter for marketing tips and updates</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-lg btn-full">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                        
+                        <p class="form-note"><i class="fas fa-shield-alt"></i> Your information is secure and will never be shared.</p>
+                    </form>
+                </div>
+                
+                <div class="contact-info fade-in-right">
+                    <div class="info-card glass-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Our Location</h4>
+                            <p>Chicago, IL</p>
+                            <a href="https://maps.google.com/?q=Chicago,IL" target="_blank" class="link-arrow">View on Map <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card glass-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Phone Number</h4>
+                            <p><a href="tel:+13473529747">(347) 352-9747</a></p>
+                            <p class="small-text">Mon-Fri, 9AM - 6PM CST</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card glass-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email Address</h4>
+                            <p><a href="mailto:hello@brandprosolution.com">hello@brandprosolution.com</a></p>
+                            <p class="small-text">Response within 24 hours</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card glass-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Business Hours</h4>
+                            <p>Monday - Friday: 9AM - 6PM</p>
+                            <p>Saturday: 10AM - 4PM</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links-card glass-card">
+                        <h4>Follow Us</h4>
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/brandprosolution__/" target="_blank" class="social-link instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="social-link facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link linkedin">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link youtube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="response-promise glass-card">
+                        <div class="promise-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <div class="promise-content">
+                            <h4>24-Hour Response Promise</h4>
+                            <p>We guarantee to respond to all inquiries within 24 business hours. Your success is our priority.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Discovery Call Section -->
+    <section class="discovery-call section-padding bg-dark">
+        <div class="container">
+            <div class="discovery-grid">
+                <div class="discovery-content fade-in-left">
+                    <span class="section-tag">Free Consultation</span>
+                    <h2>Book a <span class="highlight">Discovery Call</span></h2>
+                    <p>Schedule a 30-minute free consultation with our experts to discuss your project, goals, and how we can help you achieve them.</p>
+                    
+                    <ul class="benefit-list">
+                        <li><i class="fas fa-check-circle"></i> Free 30-minute strategy session</li>
+                        <li><i class="fas fa-check-circle"></i> Expert marketing consultation</li>
+                        <li><i class="fas fa-check-circle"></i> Custom growth roadmap</li>
+                        <li><i class="fas fa-check-circle"></i> No obligation proposal</li>
+                        <li><i class="fas fa-check-circle"></i> Instant actionable insights</li>
+                    </ul>
+                    
+                    <a href="tel:+13473529747" class="btn btn-primary btn-lg">
+                        <i class="fas fa-calendar-check"></i> Schedule Call Now
+                    </a>
+                </div>
+                
+                <div class="discovery-image fade-in-right">
+                    <img src="https://images.unsplash.com/photo-1559131397-f94da358f7ca?w=800&h=600&fit=crop" alt="Discovery call">
+                    <div class="call-badge">
+                        <span class="badge-icon"><i class="fas fa-video"></i></span>
+                        <span class="badge-text">Video Call Available</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d189984.6941999264!2d-87.94026729999999!3d41.8500337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C%20IL!5e0!3m2!1sen!2sus!4v1234567890" 
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section section-padding">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">FAQ</span>
+                <h2>Frequently Asked <span class="highlight">Questions</span></h2>
+                <p>Find answers to common questions about working with us.</p>
+            </div>
+            
+            <div class="faq-grid">
+                <div class="faq-card glass-card fade-in-up">
+                    <div class="faq-question">
+                        <h4>How quickly can you start my project?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We typically begin new projects within 1-2 weeks after contract signing. For urgent projects, we offer expedited onboarding. Contact us to discuss your timeline needs.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-card glass-card fade-in-up" data-delay="100">
+                    <div class="faq-question">
+                        <h4>What is your typical response time?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We guarantee responses within 24 business hours for all inquiries. During active projects, our team is available via email, phone, and project management tools with much faster response times.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-card glass-card fade-in-up" data-delay="200">
+                    <div class="faq-question">
+                        <h4>Do you offer custom packages?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Absolutely! Every business is unique, and we create custom solutions tailored to your specific goals, budget, and timeline. Our packages are fully customizable.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-card glass-card fade-in-up" data-delay="300">
+                    <div class="faq-question">
+                        <h4>What industries do you work with?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We work with businesses across all industries including healthcare, legal, e-commerce, real estate, hospitality, professional services, and more. Our strategies are adapted to your specific industry.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-card glass-card fade-in-up" data-delay="400">
+                    <div class="faq-question">
+                        <h4>Can I visit your office?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We welcome clients to our Chicago office. Please schedule an appointment in advance so we can ensure the right team members are available to meet with you.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-card glass-card fade-in-up" data-delay="500">
+                    <div class="faq-question">
+                        <h4>What payment methods do you accept?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We accept all major credit cards, bank transfers, ACH payments, and checks. We also offer flexible payment plans for larger projects to accommodate your budget.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-cta text-center">
+                <p>Still have questions?</p>
+                <a href="tel:+13473529747" class="btn btn-outline">
+                    <i class="fas fa-phone"></i> Call Us at (347) 352-9747
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner section-padding">
+        <div class="container">
+            <div class="cta-content text-center">
+                <h2>Ready to <span class="highlight">Transform</span> Your Business?</h2>
+                <p>Join 500+ successful clients who have grown their business with Brand Pro Solution.</p>
+                <div class="cta-buttons">
+                    <a href="#contact-form" class="btn btn-white btn-lg">
+                        <i class="fas fa-rocket"></i> Start Your Project
+                    </a>
+                    <a href="tel:+13473529747" class="btn btn-outline-white btn-lg">
+                        <i class="fas fa-phone"></i> (347) 352-9747
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="index.html" class="footer-logo">
+                        <span class="logo-icon"><i class="fas fa-bolt"></i></span>
+                        <span class="logo-text">Brand Pro<span class="highlight">Solution</span></span>
+                    </a>
+                    <p>Your premium digital marketing partner for growth, innovation, and success. We transform brands and drive results.</p>
+                    <div class="footer-social">
+                        <a href="https://www.instagram.com/brandprosolution__/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="case-studies.html">Case Studies</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-services">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="service-web-development.html">Website Development</a></li>
+                        <li><a href="service-graphic-design.html">Graphic Design</a></li>
+                        <li><a href="service-ui-ux.html">UI/UX Design</a></li>
+                        <li><a href="service-seo-content.html">SEO & Content</a></li>
+                        <li><a href="service-social-media.html">Social Media Marketing</a></li>
+                        <li><a href="service-google-business.html">Google Business Optimization</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <ul class="contact-list">
+                        <li><i class="fas fa-map-marker-alt"></i> Chicago, IL</li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+13473529747">(347) 352-9747</a></li>
+                        <li><i class="fas fa-envelope"></i> hello@brandprosolution.com</li>
+                        <li><i class="fas fa-clock"></i> Mon-Fri: 9AM - 6PM CST</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Brand Pro Solution. All rights reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
